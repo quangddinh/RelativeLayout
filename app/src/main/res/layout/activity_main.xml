@@ -9,14 +9,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:textColor="#0B4C85"
-        android:textSize="30sp"
-        android:id="@+id/tvView1"
-        android:text="Blue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-         />
-    <TextView
         android:id="@+id/Red"
         android:textSize="30sp"
         android:text="Red"
@@ -51,6 +43,16 @@
         android:textSize="30sp"
         android:text="Orange"
         android:background="#FB8C00"
+        android:textColor="#F7F5EE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_below="@+id/Orange"
+        android:id="@+id/Purple"
+        android:textSize="30sp"
+        android:text="Purple"
+        android:background="#8E24AA"
         android:textColor="#F7F5EE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
