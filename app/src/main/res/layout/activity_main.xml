@@ -5,56 +5,101 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:gravity="center_vertical"
     tools:context=".MainActivity">
 
+
     <TextView
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
         android:id="@+id/Red"
         android:textSize="30sp"
-        android:text="Red"
+        android:text="1"
         android:background="#f20"
         android:textColor="#F7F5EE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
     <TextView
+
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:layout_toEndOf="@+id/Red"
         android:layout_below="@+id/Red"
         android:id="@+id/Green"
         android:textSize="30sp"
-        android:text="Green"
+        android:text="2"
         android:background="#43A047"
         android:textColor="#F7F5EE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
-        <TextView
+    <TextView
+
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:layout_toEndOf="@+id/Green"
         android:layout_below="@+id/Green"
         android:id="@+id/Blue"
         android:textSize="30sp"
-        android:text="Blue"
+        android:text="3"
         android:background="#039BE5"
         android:textColor="#F7F5EE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
     <TextView
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:layout_toEndOf="@+id/Blue"
         android:layout_below="@+id/Blue"
         android:id="@+id/Orange"
         android:textSize="30sp"
-        android:text="Orange"
+        android:text="4"
         android:background="#FB8C00"
         android:textColor="#F7F5EE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
     <TextView
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:layout_toStartOf="@id/Orange"
         android:layout_below="@+id/Orange"
         android:id="@+id/Purple"
         android:textSize="30sp"
-        android:text="Purple"
+        android:text="5"
         android:background="#8E24AA"
         android:textColor="#F7F5EE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
+    <TextView
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:layout_toStartOf="@id/Purple"
+        android:layout_below="@+id/Purple"
+        android:id="@+id/next1"
+        android:textSize="30sp"
+        android:text="6"
+        android:background="#039BE5"
+        android:textColor="#F7F5EE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:layout_toStartOf="@id/next1"
+        android:layout_below="@+id/next1"
+        android:id="@+id/next2"
+        android:textSize="30sp"
+        android:text="7"
+        android:background="#E9C219"
+        android:textColor="#F7F5EE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
 </RelativeLayout>
