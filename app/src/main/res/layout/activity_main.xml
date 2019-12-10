@@ -5,45 +5,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
+        android:textColor="#0B4C85"
+        android:textSize="30sp"
         android:id="@+id/tvView1"
-        android:layout_centerInParent="true"
-        android:text="View 1"
+        android:text="Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp" />
-
+         />
     <TextView
-        android:layout_above="@+id/tvView1"
-        android:layout_toStartOf="@+id/tvView1"
-        android:text="View 2"
+        android:id="@+id/Red"
+        android:textSize="30sp"
+        android:text="Red"
+        android:background="#f20"
+        android:textColor="#F7F5EE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp" />
+        />
     <TextView
-        android:layout_above="@+id/tvView1"
-        android:layout_toEndOf="@+id/tvView1"
-        android:text="View 3"
+        android:layout_below="@+id/Red"
+        android:id="@+id/Green"
+        android:textSize="30sp"
+        android:text="Green"
+        android:background="#43A047"
+        android:textColor="#F7F5EE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp" />
+        />
+        <TextView
+        android:layout_below="@+id/Green"
+        android:id="@+id/Blue"
+        android:textSize="30sp"
+        android:text="Blue"
+        android:background="#039BE5"
+        android:textColor="#F7F5EE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
     <TextView
-        android:layout_below="@+id/tvView1"
-        android:layout_toEndOf="@+id/tvView1"
-        android:text="View 4"
+        android:layout_below="@+id/Blue"
+        android:id="@+id/Orange"
+        android:textSize="30sp"
+        android:text="Orange"
+        android:background="#FB8C00"
+        android:textColor="#F7F5EE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp" />
-    <TextView
-        android:layout_below="@+id/tvView1"
-        android:layout_toStartOf="@+id/tvView1"
-        android:text="View 5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30sp" />
-
-
-
+        />
 </RelativeLayout>
